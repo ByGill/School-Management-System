@@ -24,8 +24,8 @@ public class Main {
         studentList.add(Rom);
 
         School IHMA = new School(teacherList, studentList);
-        Teacher nigga = new Teacher(6,"Nigga",467);
-        IHMA.addTeacher(nigga);
+        Teacher byron = new Teacher(6,"Byron",467);
+        IHMA.addTeacher(byron);
         
         Natasha.payFees(5000);
         Rom.payFees(6000);
